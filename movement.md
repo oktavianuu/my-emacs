@@ -14,7 +14,7 @@ C-x k   : Kill or close buffer
 C-x C-b : Display all open buffer. 
 ESC ESC ESC : Exits out of prompts, regions, prefix arguments and returns to just one window
 C-/     : Undo changes
-F10     : Activate menu bar 
+F10     : Activate menu bar
 
 ### 2. Movement by Word
 M-f : move forward one word

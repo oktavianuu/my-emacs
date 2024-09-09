@@ -34,3 +34,11 @@ TAB         : Cycles through cross-references and links
 RET         : opens the active link
 q           : closes the info browser
 
+#### C-x C-c
+What to do after exiting emacs? There are several options as follows:
+Y or yes    : Save the files
+N or DEL    : skip current buffer
+q or RET    : aborts the saves, continues with exit
+C-g         : aborts save and the exit
+!           : save all remaining buffer
+d           : Diff the file on the file system with the one in the buffer
