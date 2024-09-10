@@ -42,3 +42,15 @@ q or RET    : aborts the saves, continues with exit
 C-g         : aborts save and the exit
 !           : save all remaining buffer
 d           : Diff the file on the file system with the one in the buffer
+
+#### C-x b: Switch Buffer
+C-x b       : go to the last buffer we visited
+C-x C-s     : writing buffer to files
+C-x C-b     : display list of buffer running in emacs
+
+#### C-x k: Kill Buffer
+Killing a buffer in Emacs means closing it. You don’t have to kill buffers you don’t use. It’s perfectly normal to let them sit in the background until you need them again. Normally, se- rious Emacs users have hundreds or even thousands of open buffers at a time.
+
+#### ESC ESC ESC: keyboard escape
+The click your heels three times key. If you’re stuck somewhere or want to “go back to normal” — then pressing ESC ESC ESC will (probably) solve your problems.
+All windows are deleted (meaning they’re hidden from view), prompts are exited out of, special buffers are hidden, prefix arguments are cancelled, and recursive editing levels are unwound.
